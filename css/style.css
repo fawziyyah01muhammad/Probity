@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: auto;
+    height: 100%;
+    display: flex;
+    position:sticky;
+    overflow: hidden;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow:6px -10px 15px #fff, 0px 3px 8px #f7f9fa;
+    padding: 10px 20px 10px 39px;
+    top: 0;
+}
+.nav-links ul li{
+   display: inline-block;
+   padding: 0 10px;
+}
+.nav-links ul li a{
+    text-decoration: none;
+        font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+color: #000000;
+}
+
+.logo img{
+    width: 18px;
+    height: 18px;
+}
+.logo span{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+                /* SOLUTION CREATED */
+.solution-created{
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+}
+.solution-created-text{
+    padding: 100px 0 0 80px;
+}
+.solution-created-text h1{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 47px;
+line-height: 57px;
+color: #000000;
+}
+.solution-created-text p{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 25px;
+color: #000000;
+padding: 15px 0;
+}
+.get-started-purple{
+    width: 280px;
+height: 70px;
+background: #943DA9;
+border-radius: 10px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+color: #FFFFFF;
+border: none;
+}
+
+.solution-created-img .img-circle{
+    position:relative;
+    width: 650px;
+    height: 750px;
+    top: -150px;
+    z-index: -1;
+    background: #f5f6fc;
+    padding:0 0 0px 0;
+    border-radius: 80% 0 200px 100%;
+    transform: rotate(0deg);
+    /* filter: blur(15px); */
+    box-shadow: 0px 3px 35px #DEE1F5;
+}
+
+.solution-created-img img{
+    width: 100%;
+}
+
+
+            /* SERVICES */
+
+.services{
+    width: 85%;
+  margin:50px auto;
+}
+.services h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 58px;
+    color: #000000;
+    text-align: center;
+    padding: 20px 0;
+}
+.services-row{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.services-white{
+    background-color: white;
+    width: 150px;
+    height: 25vh;
+    padding: 20px;
+    box-shadow:0 3px 0  0px purple, 0 0 20px lightgrey;
+}
+.services-white h3{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 22px;
+color: #000000;
+padding-top: 5px;
+}
+.services-white h4{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 18px;
+color: #000000;
+padding-top: 10px;
+}
+.services-white ul li{
+    list-style: none;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 160.02%;
+color: #000000;
+}
+.services-purple{
+    background-color:purple;
+    width: 150px;
+    height:25vh;
+    box-shadow: 0 0 20px 0 lightgray;
+    padding: 20px;
+    box-shadow:0 3px 0  0px purple, 0 0 20px lightgrey;
+    color: #FFFFFF;
+}
+.services-purple h3{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 22px;
+padding-top: 5px;
+}
+.services-purple h4{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 18px;
+padding-top: 10px;
+}
+.services-purple ul li{
+    list-style: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 160.02%;
+}
+
+
+
+              /* SIMPLE SOLUTION */
+
+    .simple-solution{
+    display: flex;
+    background: #5E2C84;
+    padding: 20px;
+    color: white;
+    gap: 70px;
+}
+    .simple-solution .img-circle{
+    width: 580px;
+    height:580px;
+    border-radius: 45% 50% 50% 50%;
+    background: rgba(148, 61, 169, 0.6);
+    margin-bottom: -40px;
+    margin-left: -100px;
+              }
+.simple-solution-img img{
+    width: 580px;
+    height: 610px;
+    border-radius: 50%;
+    margin-bottom: -40px;
+    margin-left: -30px;
+    margin-top: 30px;
+}
+.simple-solution-text{
+    padding: 50px 20px 0 0;
+}
+.simple-solution-text h2{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 58px;
+color: #FFFFFF;
+}
+.simple-solution-text p{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 30px;
+letter-spacing: -0.06em;
+color: #FFFFFF;
+}
+.services h2{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
