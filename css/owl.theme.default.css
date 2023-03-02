@@ -9,21 +9,29 @@
 .owl-theme .owl-nav {
   margin-top: 10px;
   text-align: center;
-  -webkit-tap-highlight-color: red; }
+  -webkit-tap-highlight-color: #000000; }
   .owl-theme .owl-nav [class*='owl-'] {
-    color: #f30909 !important;
+    color: #000000 !important;
     font-size: 85px !important;
     margin: auto;
-    padding: 4px 7px;
+    padding: 4px 10px;
     background: #df2828;
     display:inline-block;
     justify-content: space-between;
     cursor: pointer;
     border-radius: 3px; }
     .owl-theme .owl-nav [class*='owl-']:hover {
-      background: #0ff3a3;
-      color: #da0101;
+      background: transparent;
+      color: #000000 !important;
       text-decoration: none; }
+      .owl-theme .owl-nav .text{
+       margin: 0 200px;
+       font-size: 40px;
+       font-family: Arial, Helvetica, sans-serif;
+       font-style: normal;
+       font-weight: 500;
+       line-height: 44px; 
+      }
   .owl-theme .owl-nav .disabled {
     opacity: 0.5;
     cursor: default; }
@@ -42,10 +50,10 @@
       width: 10px;
       height: 10px;
       margin: 5px 7px;
-      background: #0e3dd8;
+      background: transparent;
       display: block;
       -webkit-backface-visibility: visible;
       transition: opacity 200ms ease;
       border-radius: 30px; }
     .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
-      background: #e02113; }
+      background: transparent; }
