@@ -510,18 +510,16 @@ color: #FFFFFF;
 nav .fa{
     display: none;
 }
-@media(max-width:700px){
+@media screen and (min-width:270px) and (max-width:920px){
     .nav-links ul li{
         display: block;
+        padding: 10px;
     }
-    /* #menu{
-        position: absolute;
-        top: 0;
-        right: -500px;
-        background-color: #2f842c;
-    } */
     .block{
         display: block;
+    }
+    .login{
+        padding-left: 0px;
     }
     nav{
         padding: 20px 20px 20px 0px;
@@ -534,15 +532,19 @@ nav .fa{
         cursor: pointer;
     }
     .fa-times{
-        text-align: right;
-        padding:15px 30px 0 0;
+        text-align: left;
+        padding:15px 0 30px 10px;
+        color: white;
+        
     }
     .nav-links ul li a{
         font-size: 25px;
+        color: white;
     }
+    
     .nav-links{
         position:fixed;
-        background:white;
+        background:#943DA9;
         height: 100%;
         width:40vw;
         top:0px;
@@ -673,24 +675,67 @@ nav .fa{
    }
 }
 
-
-
-/* .footer-lgh-pur{
-    height: 100px;
-    width: 100%;
-    background-color: #943DA9;
-    padding: 0px 0 0px 0;
-border-top-left-radius: 100%; 
-border-top-right-radius: 100%; 
--webkit-box-sizing: border-box;
--moz-box-sizing: border-box;
-box-sizing: border-box;
+@media screen and (min-width:600px) and (max-width:800px){
+    .simple-solution .img-circle {
+        width: auto;
+        height: 750px;
+    }
+    .simple-solution{
+        flex-direction: column-reverse;
+    }
+    .simple-solution-img img {
+        width: 100%;
+        height: 750px;
+    }
+    .our-agency-grey {
+        width: 470px;
+        height: 470px;
+        }
+        .our-agency-purple {
+            width: 450px;
+            height: 450px;
+        }
+        .our-agency-purple img{
+            width: 470px;
+        }
 }
-.footer-lgh-pur p{
-    margin-top: 40px;
-    text-align: center;
-    color: white;
-} */
 
-/* 100px of height + 10px of border */
- /* 100px of height + 10px of border */
+@media screen and (min-width:750px) and (max-width:950px){
+    .solution-created-img .img-circle{
+        width: 450px;
+        height: 535px;
+    }
+    .btn-row button{
+        width: 170px;
+    }
+    .our-agency{
+        display: flex;
+        margin: 100px 50px;
+        gap: 30px;
+    }
+    .footer-col h4{
+    font-size: 35px;
+    }
+    .footer-col ul li a{
+    font-size: 15px;
+    }
+    .footer-col1 h4{
+    font-size: 30px;
+    }
+    .services-white{
+        background-color: white;
+        width: 180px;
+        height: 100%;
+        padding: 20px;
+        box-shadow:0 3px 0  0px purple, 0 0 20px lightgrey;
+    }
+    .services-purple{
+        background-color:purple;
+        width: 200px;
+        height:100%;
+        box-shadow: 0 0 20px 0 lightgray;
+        padding: 20px;
+        box-shadow:0 3px 0  0px purple, 0 0 20px lightgrey;
+        color: #FFFFFF;
+    }
+}
