@@ -510,7 +510,7 @@ color: #FFFFFF;
 nav .fa{
     display: none;
 }
-@media screen and (min-width:270px) and (max-width:920px){
+@media screen and (min-width:270px) and (max-width:800px){
     .nav-links ul li{
         display: block;
         padding: 10px;
@@ -675,18 +675,25 @@ nav .fa{
    }
 }
 
-@media screen and (min-width:600px) and (max-width:800px){
+@media screen and (min-width:600px) and (max-width:830px){
+    .solution-created-text {
+        padding: 100px 0 0 20px;
+    }
+    .solution-created{
+        gap: 0;
+    }
     .simple-solution .img-circle {
-        width: auto;
+        width: 80%;
         height: 750px;
     }
     .simple-solution{
         flex-direction: column-reverse;
     }
     .simple-solution-img img {
-        width: 100%;
+        width: 80vw;
         height: 750px;
     }
+
     .our-agency-grey {
         width: 470px;
         height: 470px;
@@ -698,15 +705,18 @@ nav .fa{
         .our-agency-purple img{
             width: 470px;
         }
+        .footer-row{
+            gap: 40px;
+        }
 }
 
 @media screen and (min-width:750px) and (max-width:950px){
     .solution-created-img .img-circle{
-        width: 450px;
+        width: 470px;
         height: 535px;
     }
     .btn-row button{
-        width: 170px;
+        width: 150px;
     }
     .our-agency{
         display: flex;
@@ -738,4 +748,5 @@ nav .fa{
         box-shadow:0 3px 0  0px purple, 0 0 20px lightgrey;
         color: #FFFFFF;
     }
+    
 }
